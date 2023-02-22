@@ -1,0 +1,136 @@
+/* .logo{
+display: flex;
+justify-content: start;
+margin-left: 1rem;
+
+} */
+
+
+
+
+
+img{
+    width: 8rem;
+    height: 5rem;
+}
+.grocery{
+    font-family: 'Jockey One', sans-serif;
+    font-size: 4.25rem;
+  
+}
+.logo{
+
+
+    margin-left: 1rem;
+    
+}
+.header{
+    margin-left: 25%;
+   
+    text-align: center;
+    width: 50%;
+    position: absolute;
+
+}
+.entry{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-image: url("image/pexels-felipe-paes-3728311.jpg") ;
+    background-size: contain;
+ }
+
+ form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  label {
+    width: 100px;
+    margin-right: 10px;
+    text-align: right;
+  }
+  
+  input[type="text"], input[type="number"] {
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  select {
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+    margin-left: 0.75rem;
+  }
+
+  .list{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    
+ 
+  }
+  .itemCategory{
+    display:inline-grid;
+    width: 50%;
+    grid-template-columns: 8rem 8rem 8rem;
+
+    grid-column-gap: 25%;
+   
+
+  }
+
+  .wrap{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    height: auto;
+
+  }
+
+  .addItems{
+    display: inline-grid;
+    width: 50%;
+    grid-template-columns: 8rem 8rem 8rem;
+
+    grid-column-gap: 25%;
+  }
+  .done{
+    text-decoration: line-through;
+  }
+  h2{
+    font-family: 'Gruppo', cursive;
+    text-decoration: underline;
+  }
+ li{
+  text-decoration: none;
+ }
+
+ .delClass{
+  margin-right: 1rem;
+
+}
+
+.item{
+  display: inline-flex;
+  margin-right: 1rem;
+}
+#checkbox1{
+   margin-right: 1rem;
+}
+#itemList{
+  list-style-type: none;
+  justify-self: flex-start;
+}
+
+.done{
+  text-decoration: line-through;
+}
+
