@@ -134,3 +134,12 @@ img{
   text-decoration: line-through;
 }
 
+@media only screen and (max-width: 600px) {
+  .grocery {
+    font-size: 2.3rem;
+    margin-left: 3rem;
+  }
+
+
+}
+
