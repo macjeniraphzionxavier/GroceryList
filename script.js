@@ -79,12 +79,19 @@ function createListElement(){
             tData3.classList.remove("done");
         }
     });
-
+    
+    groceryInput.value = "";
+    quantityInput.value ="";
+    weightInput.value="";
+    
+    
+;
 }
 
 function addListAfterClick(){
    
     createListElement();
+    
 
 }
 
