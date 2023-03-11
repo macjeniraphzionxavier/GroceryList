@@ -13,11 +13,6 @@ var tdWeight = document.getElementById("weightID");
 const checkboxInput = document.querySelector("input");
 
 
-
-
-
-
-
 //function to create list
 
 function createListElement(){
