@@ -134,12 +134,21 @@ img{
   text-decoration: line-through;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 400px) {
   .grocery {
+
     font-size: 2.3rem;
     margin-left: 3rem;
   }
+  
 
 
+}
+
+@media only screen and (min-width: 900px){
+  input[type="text"], input[type="number"], select[id="weight"] {
+    width: 150px;
+    margin-right: 5px;
+  }
 }
 
